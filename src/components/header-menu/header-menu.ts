@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { App, MenuController, NavController } from 'ionic-angular';
+import { App, MenuController } from 'ionic-angular';
 import { LoginPage } from '../../pages/login/login';
 import { HomePage } from '../../pages/home/home';
 import { PurchaseRequestPage } from '../../pages/purchase-request/purchase-request';
@@ -23,7 +23,6 @@ export class HeaderMenuComponent {
   public tab4Root = SettingsPage;
   
   constructor(public menuCtrl: MenuController,
-    public navCtrl: NavController,
     public app: App) {
     console.log('Hello HeaderMenuComponent Component');
   }
@@ -38,7 +37,8 @@ export class HeaderMenuComponent {
     console.log("Logout");
     //this.authService.logout();
     this.menuCtrl.close();
-    this.navCtrl.setRoot('LoginPage');
+    var nav = this.app.getRootNav();
+    nav.setRoot(LoginPage);
   }
 
 }
