@@ -4,7 +4,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { TranslateService } from '@ngx-translate/core';
 import { LoginPage } from '../pages/login/login';
-import { TablistPage } from '../pages/tablist/tablist';
 
 @Component({
   templateUrl: 'app.html'
