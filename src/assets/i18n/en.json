@@ -1,0 +1,18 @@
+{
+    "HELLO": "Hello",
+    "WELCOME": "Welcome",
+    "GREETING": "Hi, {{ value }}",
+    "username": "Username",
+    "password": "Password",
+    "login-button": "Login",
+    "language": "Language",
+    "home-title": "Home",
+    "settings-title": "Settings",
+    "purchase-request-title": "Purchase Requests",
+    "purchase-order-title": "Purchase Orders",
+    "home-tab": "Home",
+    "settings-tab": "Settings",
+    "purchase-request-tab": "Requests",
+    "purchase-order-tab": "Orders",
+    "logout-button": "Logout"
+}

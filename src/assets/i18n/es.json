@@ -1,0 +1,18 @@
+{
+    "HELLO": "Hola",
+    "WELCOME": "Bienvenido",
+    "GREETING": "Hola, {{ value }}",
+    "username": "Usuario",
+    "password": "Clave",
+    "login-button": "Ingresar",
+    "language": "Idioma",
+    "home-title": "Inicio",
+    "settings-title": "Opciones",
+    "purchase-request-title": "Solicitudes de Compra",
+    "purchase-order-title": "Ordenes de Compra",
+    "home-tab": "Inicio",
+    "settings-tab": "Opciones",
+    "purchase-request-tab": "Solicitudes",
+    "purchase-order-tab": "Ordenes",
+    "logout-button": "Salir"
+}

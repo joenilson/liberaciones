@@ -1,0 +1,18 @@
+{
+    "HELLO": "Olá",
+    "WELCOME": "Bem-vindo",
+    "GREETING": "oi, {{ value }}",
+    "username": "Nome de usuário",
+    "password": "Senha",
+    "login-button": "Entrar",
+    "home-title": "Início",
+    "language": "Língua",
+    "settings-title": "Configurações",
+    "purchase-request-title": "Pedido de Compra",
+    "purchase-order-title": "Ordem de Compra",
+    "home-tab": "Início",
+    "settings-tab": "Configurações",
+    "purchase-request-tab": "Pedido",
+    "purchase-order-tab": "Ordem",
+    "logout-button": "Sair"
+}

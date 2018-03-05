@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angular';
 
 /**
- * Generated class for the HomePage page.
+ * Generated class for the PurchaseOrderPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,18 +10,18 @@ import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angul
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-purchase-order',
+  templateUrl: 'purchase-order.html',
 })
-export class HomePage {
+export class PurchaseOrderPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
   public menuCtrl: MenuController) {
-    this.menuCtrl.enable(true,'menuId');
+    this.menuCtrl.enable(true, 'menuId');
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+    console.log('ionViewDidLoad PurchaseOrderPage');
   }
 
 }
