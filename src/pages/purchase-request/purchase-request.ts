@@ -68,4 +68,9 @@ export class PurchaseRequestPage {
   itemSelected(item){
     console.log(item);
   }
+
+  toogleCheckbox()
+  {
+    console.log('Chechbox clicked');
+  }
 }

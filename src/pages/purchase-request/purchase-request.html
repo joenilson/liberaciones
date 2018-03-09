@@ -20,10 +20,16 @@
 
 <ion-content padding>
     <ion-list>
+        <ion-item-divider sticky>
+            <ion-checkbox (click)="toogleCheckbox()"></ion-checkbox>
+        </ion-item-divider>
         <ion-item-sliding *ngFor="let item of request">
             <ion-item>
-                <h2>Solicitud: {{item.numero}} del {{item.fecha}}</h2>
-                <p>Solicitante: {{item.solicitante}}</p>
+                <ion-checkbox></ion-checkbox>
+                <ion-label>
+                    <h2 class="font-size-small">Solicitud: {{item.numero}} del {{item.fecha}}</h2>
+                    <p class="font-size-small">Solicitante: {{item.solicitante}}</p>
+                </ion-label>
             </ion-item>
             <ion-item-options>
                 <button ion-button color="light" icon-start>
