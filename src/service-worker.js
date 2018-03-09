@@ -8,7 +8,7 @@
 importScripts('./build/sw-toolbox.js');
 
 self.toolbox.options.cache = {
-    name: 'liberaciones-v1'
+    name: 'liberaciones-v1.1'
 };
 
 // pre-cache our key assets
