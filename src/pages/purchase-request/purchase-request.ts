@@ -14,6 +14,9 @@ import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angul
   templateUrl: 'purchase-request.html',
 })
 export class PurchaseRequestPage {
+
+  itemChecked = false;
+
   request =[{
     numero: 400023456,
     fecha: '2018-01-12',
@@ -71,6 +74,8 @@ export class PurchaseRequestPage {
 
   toogleCheckbox()
   {
+    this.itemChecked =  (this.itemChecked)?false:true;
+    
     console.log('Chechbox clicked');
   }
 }

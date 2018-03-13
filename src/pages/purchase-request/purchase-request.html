@@ -25,7 +25,7 @@
         </ion-item-divider>
         <ion-item-sliding *ngFor="let item of request">
             <ion-item>
-                <ion-checkbox></ion-checkbox>
+                <ion-checkbox [(ngModel)]="itemChecked" id="{{item.numero}}"></ion-checkbox>
                 <ion-label>
                     <h2 class="font-size-small">Solicitud: {{item.numero}} del {{item.fecha}}</h2>
                     <p class="font-size-small">Solicitante: {{item.solicitante}}</p>
